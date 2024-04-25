@@ -1,0 +1,734 @@
+{% load crispy_forms_filters %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CUBANCODE</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'app/css/open-iconic-bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/animate.css' %}">
+
+    <link rel="stylesheet" href="{% static 'app/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/owl.theme.default.min.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/magnific-popup.css' %}">
+
+    <link rel="stylesheet" href="{% static 'app/css/aos.css' %}">
+
+    <link rel="stylesheet" href="{% static 'app/css/ionicons.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'app/css/bootstrap-datepicker.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/jquery.timepicker.css' %}">
+
+
+    <link rel="stylesheet" href="{% static 'app/css/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/icomoon.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/style.css' %}">
+</head>
+<body>
+
+
+<section class="home-slider owl-carousel">
+    <div class="slider-item"
+         style="background-image:url(https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?q=80&w=1481&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);">
+        <div class="overlay"></div>
+        {% include 'navbar.html' %}
+        {% include 'alerts.html' %}
+        <div class="container">
+            <div class="row no-gutters slider-text align-items-center justify-content-center">
+                <div class="col-md-12 ftco-animate text-center">
+                    <div class="text mb-5 pb-3">
+                        <h1 class="mb-3">Welcome To CUBANCODE</h1>
+                        <h2>Hotels &amp; Resorts</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slider-item"
+         style="background-image:url(https://media.istockphoto.com/id/1377892097/photo/big-contemporary-white-villa-with-pool-and-garden-in-the-evening.jpg?s=1024x1024&w=is&k=20&c=msE4wrQJYRimKT2PrhsR54sTLdZsinHEL-ZTf3_T43E=);">
+        <div class="sticky"></div>
+        {% include 'navbar.html' %}
+        <div class="container">
+            <div class="row no-gutters slider-text align-items-center justify-content-center">
+                <div class="col-md-12 ftco-animate text-center">
+                    <div class="text mb-5 pb-3">
+                        <h1 class="mb-3">Enjoy A Luxury Experience</h1>
+                        <h2>Join With Us</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-booking">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <form action="#" class="booking-form">
+                    <div class="row">
+                        <div class="col-md-3 d-flex">
+                            <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                                <div class="wrap">
+                                    <label for="#">Check-in Date</label>
+                                    <label>
+                                        <input type="text" class="form-control checkin_date" placeholder="Check-in date">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 d-flex">
+                            <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                                <div class="wrap">
+                                    <label for="#">Check-out Date</label>
+                                    <label>
+                                        <input type="text" class="form-control checkout_date" placeholder="Check-out date">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md d-flex">
+                            <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                                <div class="wrap">
+                                    <label for="#">Room</label>
+                                    <div class="form-field">
+                                        <div class="select-wrap">
+                                            <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                                            <label for=""></label><select name="" id="" class="form-control">
+                                                <option value="">Suite</option>
+                                                <option value="">Family Room</option>
+                                                <option value="">Deluxe Room</option>
+                                                <option value="">Classic Room</option>
+                                                <option value="">Superior Room</option>
+                                                <option value="">Luxury Room</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md d-flex">
+                            <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                                <div class="wrap">
+                                    <label for="#">Customer</label>
+                                    <div class="form-field">
+                                        <div class="select-wrap">
+                                            <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                                            <select name="" id="" class="form-control">
+                                                <option value="">1 Adult</option>
+                                                <option value="">2 Adult</option>
+                                                <option value="">3 Adult</option>
+                                                <option value="">4 Adult</option>
+                                                <option value="">5 Adult</option>
+                                                <option value="">6 Adult</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md d-flex">
+                            <div class="form-group d-flex align-self-stretch">
+                                <form action="{% url 'rooms' %}" method="get"
+                                      enctype="multipart/form-data">
+                                   
+                                    <input type="submit" value="Check Availability"
+                                           class="btn btn-primary py-3 px-4 align-self-stretch">
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="ftco-section ftc-no-pb ftc-no-pt">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center"
+                 style="background-image: url({% static 'app/images/bg_2.jpg' %});">
+                <a href="https://vimeo.com/45830194"
+                   class="icon popup-vimeo d-flex justify-content-center align-items-center">
+                    <span class="icon-play"></span>
+                </a>
+            </div>
+            <div class="col-md-7 py-5 wrap-about pb-md-5 ftco-animate">
+                <div class="heading-section heading-section-wo-line pt-md-5 pl-md-5 mb-5">
+                    <div class="ml-md-0">
+                        <span class="subheading">Welcome to Cubancode Hotel</span>
+                        <h2 class="mb-4">Welcome To Our Hotel</h2>
+                    </div>
+                </div>
+                <div class="pb-md-5">
+                    <p>Cuban Code is a vibrant community hub nestled in the heart of Kilimani, pulsating with creativity and innovation. More than just a workspace, 
+                        Cuban Code is a dynamic ecosystem where entrepreneurs, 
+                        freelancers, and professionals converge to collaborate, ideate, and thrive. 
+                        Located in the bustling neighborhood of Kilimani, known for its eclectic mix of culture and commerce, Cuban Code offers a stimulating environment that fosters productivity and growth..</p>
+                    <p>With state-of-the-art facilities, flexible workspaces, and a diverse range of amenities, Cuban Code is more than just a place to work; it's a destination where ideas come to life and connections are forged. 
+                        Whether you're a startup looking to scale, a freelancer seeking inspiration, or a corporate team in need of a creative retreat, Cuban Code provides the perfect setting to unlock your potential and elevate your aspirations.
+                        Welcome to Cuban Code, where innovation knows no bounds and success is always within reach.</p>
+                    <ul class="ftco-social d-flex">
+                        <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section">
+    <div class="container">
+        <div class="row d-flex">
+            <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+                <div class="media block-6 services py-4 d-block text-center">
+                    <div class="d-flex justify-content-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="flaticon-reception-bell"></span>
+                        </div>
+                    </div>
+                    <div class="media-body p-2 mt-2">
+                        <h3 class="heading mb-3">25/7 Front Desk</h3>
+                        <p>At the front desk, our attentive staff ensures a warm welcome always.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+                <div class="media block-6 services py-4 d-block text-center">
+                    <div class="d-flex justify-content-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="flaticon-serving-dish"></span>
+                        </div>
+                    </div>
+                    <div class="media-body p-2 mt-2">
+                        <h3 class="heading mb-3">Restaurant Bar</h3>
+                        <p>Our vibrant restaurant bar offers a delightful fusion of flavors and ambiance.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex align-sel Searchf-stretch ftco-animate">
+                <div class="media block-6 services py-4 d-block text-center">
+                    <div class="d-flex justify-content-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="flaticon-car"></span>
+                        </div>
+                    </div>
+                    <div class="media-body p-2 mt-2">
+                        <h3 class="heading mb-3">Transfer Services</h3>
+                        <p>Experience our seamless transfer services, ensuring punctuality and comfort throughout.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+                <div class="media block-6 services py-4 d-block text-center">
+                    <div class="d-flex justify-content-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="flaticon-spa"></span>
+                        </div>
+                    </div>
+                    <div class="media-body p-2 mt-2">
+                        <h3 class="heading mb-3">Spa Suites</h3>
+                        <p>In our spa suites, indulge in ultimate relaxation and rejuvenation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section bg-light">
+    <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+            <div class="col-md-7 heading-section text-center ftco-animate">
+                <h2 class="mb-4">Our Rooms</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm col-md-6 col-lg-4 ftco-animate">
+                <div class="room">
+                    <a href="{% url 'rooms' %}" class="img d-flex justify-content-center align-items-center"
+                       style="background-image: url({% static 'app/images/room-1.jpg' %});">
+                        <div class="icon d-flex justify-content-center align-items-center">
+                            <span class="icon-search2"></span>
+                        </div>
+                    </a>
+                    <div class="text p-3 text-center">
+                        <h3 class="mb-3"><a href="{% url 'rooms' %}">Suite Room</a></h3>
+                        <p><span class="price mr-2">kshs 13000.00</span> <span class="per">per night</span></p>
+                        <hr>
+                        <p class="pt-1"><a href="{% url 'rooms' %}" class="btn-custom">View Room Details <span
+                                class="icon-long-arrow-right"></span></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-md-6 col-lg-4 ftco-animate">
+                <div class="room">
+                    <a href="{% url 'rooms' %}" class="img d-flex justify-content-center align-items-center"
+                       style="background-image: url({% static 'app/images/room-2.jpg' %});">
+                        <div class="icon d-flex justify-content-center align-items-center">
+                            <span class="icon-search2"></span>
+                        </div>
+                    </a>
+                    <div class="text p-3 text-center">
+                        <h3 class="mb-3"><a href="{% url 'rooms' %}">Family Room</a></h3>
+                        <p><span class="price mr-2">kshs 25000.00</span> <span class="per">per night</span></p>
+                        <hr>
+                        <p class="pt-1"><a href="{% url 'rooms' %}" class="btn-custom">View Room Details <span
+                                class="icon-long-arrow-right"></span></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-md-6 col-lg-4 ftco-animate">
+                <div class="room">
+                    <a href="{% url 'rooms' %}" class="img d-flex justify-content-center align-items-center"
+                       style="background-image: url({% static 'app/images/room-3.jpg' %});">
+                        <div class="icon d-flex justify-content-center align-items-center">
+                            <span class="icon-search2"></span>
+                        </div>
+                    </a>
+                    <div class="text p-3 text-center">
+                        <h3 class="mb-3"><a href="{% url 'rooms' %}">Deluxe Room</a></h3>
+                        <p><span class="price mr-2">kshs 16000.00</span> <span class="per">per night</span></p>
+                        <hr>
+                        <p class="pt-1"><a href="{% url 'rooms' %}" class="btn-custom">View Room Details <span
+                                class="icon-long-arrow-right"></span></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-md-6 col-lg-4 ftco-animate">
+                <div class="room">
+                    <a href="{% url 'rooms' %}" class="img d-flex justify-content-center align-items-center"
+                       style="background-image: url({% static 'app/images/room-4.jpg' %});">
+                        <div class="icon d-flex justify-content-center align-items-center">
+                            <span class="icon-search2"></span>
+                        </div>
+                    </a>
+                    <div class="text p-3 text-center">
+                        <h3 class="mb-3"><a href="{% url 'rooms' %}">Classic Room</a></h3>
+                        <p><span class="price mr-2">kshs 14000.00</span> <span class="per">per night</span></p>
+                        <hr>
+                        <p class="pt-1"><a href="{% url 'rooms' %}" class="btn-custom">View Room Details <span
+                                class="icon-long-arrow-right"></span></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-md-6 col-lg-4 ftco-animate">
+                <div class="room">
+                    <a href="{% url 'rooms' %}" class="img d-flex justify-content-center align-items-center"
+                       style="background-image: url({% static 'app/images/room-5.jpg' %});">
+                        <div class="icon d-flex justify-content-center align-items-center">
+                            <span class="icon-search2"></span>
+                        </div>
+                    </a>
+                    <div class="text p-3 text-center">
+                        <h3 class="mb-3"><a href="{% url 'rooms' %}">Superior Room</a></h3>
+                        <p><span class="price mr-2">kshs 40000.00</span> <span class="per">per night</span></p>
+                        <hr>
+                        <p class="pt-1"><a href="{% url 'rooms' %}" class="btn-custom">View Room Details <span
+                                class="icon-long-arrow-right"></span></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-md-6 col-lg-4 ftco-animate">
+                <div class="room">
+                    <a href="{% url 'rooms' %}" class="img d-flex justify-content-center align-items-center"
+                       style="background-image: url({% static 'app/images/room-6.jpg' %});">
+                        <div class="icon d-flex justify-content-center align-items-center">
+                            <span class="icon-search2"></span>
+                        </div>
+                    </a>
+                    <div class="text p-3 text-center">
+                        <h3 class="mb-3"><a href="{% url 'rooms' %}">Luxury Room</a></h3>
+                        <p><span class="price mr-2">kshs 60000.00</span> <span class="per">per night</span></p>
+                        <hr>
+                        <p class="pt-1"><a href="{% url 'rooms' %}" class="btn-custom">View Room Details <span
+                                class="icon-long-arrow-right"></span></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section ftco-counter img" id="section-counter"
+         style="background-image: url({% static 'app/images/bg_1.jpg' %});">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+                        <div class="block-18 text-center">
+                            <div class="text">
+                                <strong class="number" data-number="50000">0</strong>
+                                <span>Happy Guests</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+                        <div class="block-18 text-center">
+                            <div class="text">
+                                <strong class="number" data-number="3000">0</strong>
+                                <span>Rooms</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+                        <div class="block-18 text-center">
+                            <div class="text">
+                                <strong class="number" data-number="1000">0</strong>
+                                <span>Staffs</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+                        <div class="block-18 text-center">
+                            <div class="text">
+                                <strong class="number" data-number="100">0</strong>
+                                <span>Destination</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="ftco-section testimony-section bg-light">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 ftco-animate">
+                <div class="row ftco-animate">
+                    <div class="col-md-12">
+                        <div class="carousel-testimony owl-carousel ftco-owl">
+                            <div class="item">
+                                <div class="testimony-wrap py-4 pb-5">
+                                    <div class="user-img mb-4"
+                                         style="background-image: url({% static 'app/images/person_1.jpg' %})">
+		                    <span class="quote d-flex align-items-center justify-content-center">
+		                      <i class="icon-quote-left"></i>
+		                    </span>
+                                    </div>
+                                    <div class="text text-center">
+                                        <p class="mb-4">Staying at Cuban Code Hotel was an exceptional experience. The staff was incredibly accommodating,
+                                            and the rooms were modern and comfortable. As a business traveler, 
+                                            having reliable Wi-Fi and a quiet workspace was essential, and Cuban Code exceeded my expectations. I'll definitely be returning on my next trip to the area.</p>
+                                        <p class="name">Nathan Smith</p>
+                                        <span class="position">Guests</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimony-wrap py-4 pb-5">
+                                    <div class="user-img mb-4"
+                                         style="background-image: url({% static 'app/images/person_2.jpg' %})">
+		                    <span class="quote d-flex align-items-center justify-content-center">
+		                      <i class="icon-quote-left"></i>
+		                    </span>
+                                    </div>
+                                    <div class="text text-center">
+                                        <p class="mb-4">My wife and I chose Cuban Code Hotel for our honeymoon, and it was the perfect choice.
+                                            The romantic ambiance, stunning views, and impeccable service made our stay unforgettable. From the moment we arrived, we felt pampered and cared for.
+                                            We couldn't have asked for a better start to our married life.</p>
+                                        <p class="name">Nathan Smith</p>
+                                        <span class="position">Guests</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimony-wrap py-4 pb-5">
+                                    <div class="user-img mb-4"
+                                         style="background-image: url({% static 'app/images/person_3.jpg' %})">
+		                    <span class="quote d-flex align-items-center justify-content-center">
+		                      <i class="icon-quote-left"></i>
+		                    </span>
+                                    </div>
+                                    <div class="text text-center">
+                                        <p class="mb-4">Our family vacation at Cuban Code Hotel was wonderful. The spacious rooms were ideal for our family
+                                            and the kids loved the pool area. The hotel's central location made it easy for us to explore the city's attractions. The staff went above and beyond to ensure we had everything we needed, 
+                                            making our stay relaxing and enjoyable.</p>
+                                        <p class="name">Nathan Smith</p>
+                                        <span class="position">Guests</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimony-wrap py-4 pb-5">
+                                    <div class="user-img mb-4"
+                                         style="background-image: url({% static 'app/images/person_1.jpg' %})">
+		                    <span class="quote d-flex align-items-center justify-content-center">
+		                      <i class="icon-quote-left"></i>
+		                    </span>
+                                    </div>
+                                    <div class="text text-center">
+                                        <p class="mb-4"> travel frequently for work, and Cuban Code Hotel quickly became one of my favorite places to stay.
+                                            The sleek design, comfortable amenities, 
+                                            and friendly staff create a welcoming atmosphere. Plus, the hotel's convenient location near restaurants and nightlife made it easy to unwind after a busy day of meetings</p>
+                                        <span class="position">Guests</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimony-wrap py-4 pb-5">
+                                    <div class="user-img mb-4"
+                                         style="background-image: url({% static 'app/images/person_1.jpg' %})">
+		                    <span class="quote d-flex align-items-center justify-content-center">
+		                      <i class="icon-quote-left"></i>
+		                    </span>
+                                    </div>
+                                    <div class="text text-center">
+                                        <p class="mb-4">Cuban Code Hotel was the perfect home base for my adventure-filled trip. After exploring the nearby hiking trails and cultural sites,
+                                            coming back to the hotel felt like returning to a sanctuary. 
+                                            The cozy rooms and delicious dining options provided the comfort and relaxation I needed to recharge for the next day's adventures.</p>
+                                        <p class="name">Nathan Smith</p>
+                                        <span class="position">Guests</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="ftco-section">
+    <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+            <div class="col-md-7 heading-section text-center ftco-animate">
+                <h2>Recent Blog</h2>
+            </div>
+        </div>
+        <div class="row d-flex">
+            <div class="col-md-3 d-flex ftco-animate">
+                <div class="blog-entry align-self-stretch">
+                    <a href="{% url 'blog' %}"><img src="{% static 'app/images/image_1.jpg' %}" alt="Image"></a>
+                    <div class="text mt-3 d-block">
+                        <div class="meta mb-3">
+                            <div><a href="#">Dec 6, 2018</a></div>
+                            <div><a href="#">Admin</a></div>
+                            <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex ftco-animate">
+                <div class="blog-entry align-self-stretch">
+                    <a href="{% url 'blog' %}"><img src="{% static 'app/images/image_2.jpg' %}" alt="Image"></a>
+
+                    <div class="text mt-3">
+                        <h3>Alone at Sunrise: A Quiet Moment Captures the Peaceful Beauty of Solitude and
+                            Reflection</h3>
+                        <div class="meta mb-3">
+                            <div><a href="#">Dec 6, 2018</a></div>
+                            <div><a href="#">Admin</a></div>
+                            <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex ftco-animate">
+                <div class="blog-entry align-self-stretch">
+                    <a href="{% url 'blog' %}"><img src="{% static 'app/images/image_3.jpg' %}" alt="Image"></a>
+
+                    <div class="text mt-3">
+                        <div class="meta mb-3">
+                            <div><a href="#">Dec 6, 2018</a></div>
+                            <div><a href="#">Admin</a></div>
+                            <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex ftco-animate">
+                <div class="blog-entry align-self-stretch">
+                    <a href="{% url 'blog' %}">
+                        <img src="https://media.istockphoto.com/id/1985431088/photo/woman-working-with-laptop-sitting-near-the-pool-on-tropical-villa.jpg?s=2048x2048&w=is&k=20&c=BGyeSe8vQYb3CIPGB7Vxuum-P39sh1R6tc5-GECl3-w="
+                             alt="" width="500" height="300">
+                    </a>
+
+                    <div class="text mt-3">
+                        <div class="meta mb-3">
+                            <div><a href="#">Dec 6, 2018</a></div>
+                            <div><a href="#">Admin</a></div>
+                            <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="instagram pt-5">
+    <div class="container-fluid">
+        <div class="row no-gutters justify-content-center pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+                <h2><span>Instagram</span></h2>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-sm-12 col-md ftco-animate">
+                <a href=" {% static 'app/images/insta-1.jpg' %}" class="insta-img image-popup"
+                   style="background-image: url( {% static 'app/images/insta-1.jpg' %});">
+                    <div class="icon d-flex justify-content-center">
+                        <span class="icon-instagram align-self-center"></span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md ftco-animate">
+                <a href=" {% static 'app/images/insta-2.jpg' %}" class="insta-img image-popup"
+                   style="background-image: url( {% static 'app/images/insta-2.jpg' %});">
+                    <div class="icon d-flex justify-content-center">
+                        <span class="icon-instagram align-self-center"></span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md ftco-animate">
+                <a href=" {% static 'app/images/insta-3.jpg' %}" class="insta-img image-popup"
+                   style="background-image: url( {% static 'app/images/insta-3.jpg' %});">
+                    <div class="icon d-flex justify-content-center">
+                        <span class="icon-instagram align-self-center"></span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md ftco-animate">
+                <a href=" {% static 'app/images/insta-4.jpg' %}" class="insta-img image-popup"
+                   style="background-image: url( {% static 'app/images/insta-4.jpg' %});">
+                    <div class="icon d-flex justify-content-center">
+                        <span class="icon-instagram align-self-center"></span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md ftco-animate">
+                <a href=" {% static 'app/images/insta-5.jpg' %}" class="insta-img image-popup"
+                   style="background-image: url( {% static 'app/images/insta-5.jpg' %});">
+                    <div class="icon d-flex justify-content-center">
+                        <span class="icon-instagram align-self-center"></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="ftco-footer ftco-bg-dark ftco-section">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">Cuban code</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.</p>
+                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                        <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4 ml-md-5">
+                    <h2 class="ftco-heading-2">Useful Links</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="{% url 'blog' %}" class="py-2 d-block">Blog</a></li>
+                        <li><a href="{% url 'rooms' %}" class="py-2 d-block">Rooms</a></li>
+                        <li><a href="#" class="py-2 d-block">Amenities</a></li>
+                        <li><a href="#" class="py-2 d-block">Gift Card</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">Privacy</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="py-2 d-block">Career</a></li>
+                        <li><a href="{% url 'about' %}" class="py-2 d-block">About Us</a></li>
+                        <li><a href="{% url 'contact' %}" class="py-2 d-block">Contact Us</a></li>
+                        <li><a href="#" class="py-2 d-block">Services</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">Have a Questions?</h2>
+                    <div class="block-23 mb-3">
+                        <ul>
+                            <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, Nairobi. KENYA</span>
+                            </li>
+                            <li><a href="#"><span class="icon icon-phone"></span><span
+                                    class="text">+254 756 880 423</span></a></li>
+                            <li><a href="#"><span class="icon icon-envelope"></span><span class="text">linetmukai9@gmail.com</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+
+                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                    All rights reserved | This template is made with <i class="icon-heart color-danger"
+                                                                        aria-hidden="true"></i> by <a
+                            href="https://colorlib.com" target="_blank">Colorlib</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- loader -->
+<div id="ftco-loader" class="show fullscreen">
+    <svg class="circular" width="48px" height="48px">
+        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"></circle>
+        <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#F96D00"></circle>
+    </svg>
+</div>
+
+<script>
+    document.getElementById('availabilityForm').addEventListener('submit', function (event) {
+        event.preventDefault(); // Prevent the form from submitting normally
+
+        // Redirect to the rooms page
+        window.location.href = '/rooms';
+    });
+</script>
+<script src="{% static 'app/js/jquery.min.js' %}"></script>
+<script src="{% static 'app/js/jquery-migrate-3.0.1.min.js' %}"></script>
+<script src="{% static 'app/js/popper.min.js' %}"></script>
+<script src="{% static 'app/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'app/js/jquery.easing.1.3.js' %}"></script>
+<script src="{% static 'app/js/jquery.waypoints.min.js' %}"></script>
+<script src="{% static 'app/js/jquery.stellar.min.js' %}"></script>
+<script src="{% static 'app/js/owl.carousel.min.js' %}"></script>
+<script src="{% static 'app/js/jquery.magnific-popup.min.js' %}"></script>
+<script src="{% static 'app/js/aos.js' %}"></script>
+<script src="{% static 'app/js/jquery.animateNumber.min.js' %}"></script>
+<script src="{% static 'app/js/bootstrap-datepicker.js' %}"></script>
+<script src="{% static 'app/js/jquery.timepicker.min.js' %}"></script>
+<script src="{% static 'app/js/scrollax.min.js' %}"></script>
+<script src="{% static 'app/js/google-map.js' %}"></script>
+<script src="{% static 'app/js/main.js' %}"></script>
+
+
+</body>
+</html>

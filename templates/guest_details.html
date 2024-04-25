@@ -1,0 +1,41 @@
+{% load humanize %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Guest Deatils</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+{% include 'navbar.html' %}
+<div class="container">
+    <div class="row justify-content-center ">
+        <div class="col-sm-7">
+            <div class="">
+                {% if guest.profile_picture %}
+                	<img src="{{ guest.profile_picture.url }}" height="300" width="300" alt="">
+                {% endif %}
+                <div class="card-body">
+                    <h2 class="card-title">{{ guest.name }}</h2>
+                    <p class="card-text">{{ guest.email }}</p>
+                    <p class="card-text">{{ guest.dob  }}</p>
+                    <p class="card-text"> + 254 {{ guest.phone_number }}</p>
+                    <p class="card-text"> checked in on {{ guest.check_in  | naturaltime}}</p>
+                    <p class="card-text"> checked out on {{ guest.check_out }}</p>
+                    
+                    
+                    <a href="{% url 'delete' guest.id %}" class="btn btn-danger w-100">Delete</a>
+                     <a href="{% url 'update' guest.id %}" class="btn btn-primary w-100 mt-2">update</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

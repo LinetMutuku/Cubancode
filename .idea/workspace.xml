@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c55773e7-7bdf-4087-9731-117f95566f7a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/cubancode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cubancode/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cubancode/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cubancode/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cubancode/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cubancode/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2cDC10uuHQx6YF7t9YdiHGmmbvQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.cubancode.executor&quot;: &quot;Run&quot;,
+    &quot;Python.urls.executor&quot;: &quot;Profiler&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hp/PycharmProjectslL/cubancodeproject/cubancode/app/assets/app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\PycharmProjectslL\cubancodeproject\cubancode\app\assets\app" />
+      <recent name="C:\Users\hp\PycharmProjectslL\cubancodeproject\cubancode\static\admin\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\PycharmProjectslL\cubancodeproject\cubancode\app\assets\app" />
+      <recent name="C:\Users\hp\PycharmProjectslL\cubancodeproject\cubancode\media" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django Server.cubancode">
+    <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cubancode" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cubancode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cubancode/urls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cubancode" type="Python.DjangoServer" factoryName="Django server">
+      <module name="cubancode" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="cubancode.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.urls" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
+        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c55773e7-7bdf-4087-9731-117f95566f7a" name="Changes" comment="" />
+      <created>1707636544057</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707636544057</updated>
+      <workItem from="1707636602975" duration="1738000" />
+      <workItem from="1707640247704" duration="8536000" />
+      <workItem from="1707650479886" duration="8417000" />
+      <workItem from="1707669523144" duration="9258000" />
+      <workItem from="1707727419002" duration="7976000" />
+      <workItem from="1707762935536" duration="2873000" />
+      <workItem from="1707820635165" duration="7584000" />
+      <workItem from="1707964609526" duration="7063000" />
+      <workItem from="1707998719257" duration="6293000" />
+      <workItem from="1708089389297" duration="139000" />
+      <workItem from="1708272249909" duration="947000" />
+      <workItem from="1708360838701" duration="427000" />
+      <workItem from="1708395885301" duration="3486000" />
+      <workItem from="1708410533877" duration="2520000" />
+      <workItem from="1708456081184" duration="4104000" />
+      <workItem from="1708461096816" duration="4087000" />
+      <workItem from="1708541116790" duration="19089000" />
+      <workItem from="1708754618461" duration="2295000" />
+      <workItem from="1708778643855" duration="611000" />
+      <workItem from="1709452809756" duration="1207000" />
+      <workItem from="1709697380392" duration="619000" />
+      <workItem from="1710337436300" duration="130000" />
+      <workItem from="1710337753710" duration="42000" />
+      <workItem from="1710686713437" duration="1308000" />
+      <workItem from="1710688459743" duration="6987000" />
+      <workItem from="1710745155561" duration="6536000" />
+      <workItem from="1710925891578" duration="603000" />
+      <workItem from="1710950898879" duration="234000" />
+      <workItem from="1711003779543" duration="5030000" />
+      <workItem from="1711011417979" duration="5249000" />
+      <workItem from="1711017817955" duration="143000" />
+      <workItem from="1711017983527" duration="5318000" />
+      <workItem from="1711047298986" duration="1716000" />
+      <workItem from="1711188035423" duration="1253000" />
+      <workItem from="1711222844798" duration="4044000" />
+      <workItem from="1711230301011" duration="738000" />
+      <workItem from="1711300290797" duration="4159000" />
+      <workItem from="1711313347370" duration="11586000" />
+      <workItem from="1711370417138" duration="1435000" />
+      <workItem from="1711372808383" duration="1069000" />
+      <workItem from="1711374019281" duration="1016000" />
+      <workItem from="1711375575181" duration="1901000" />
+      <workItem from="1711396305265" duration="413000" />
+      <workItem from="1711400622189" duration="1418000" />
+      <workItem from="1711434854751" duration="517000" />
+      <workItem from="1711448838082" duration="2291000" />
+      <workItem from="1711526571741" duration="1221000" />
+      <workItem from="1711642500157" duration="1255000" />
+      <workItem from="1711785124328" duration="11710000" />
+      <workItem from="1711799763424" duration="904000" />
+      <workItem from="1711800741544" duration="232000" />
+      <workItem from="1711800999949" duration="374000" />
+      <workItem from="1711884326915" duration="10628000" />
+      <workItem from="1711915601792" duration="9148000" />
+      <workItem from="1711924873207" duration="12000" />
+      <workItem from="1711971342903" duration="376000" />
+      <workItem from="1711990915358" duration="74000" />
+      <workItem from="1712659789881" duration="240000" />
+      <workItem from="1712674710180" duration="246000" />
+      <workItem from="1712690933139" duration="136000" />
+      <workItem from="1712725358857" duration="1057000" />
+      <workItem from="1712729075758" duration="249000" />
+      <workItem from="1712768760171" duration="26000" />
+      <workItem from="1712901452105" duration="1239000" />
+      <workItem from="1712925806312" duration="801000" />
+      <workItem from="1712987509384" duration="180000" />
+      <workItem from="1713417109972" duration="5072000" />
+      <workItem from="1713424242473" duration="2383000" />
+      <workItem from="1713516014562" duration="73000" />
+      <workItem from="1713779685118" duration="643000" />
+      <workItem from="1713868822673" duration="1483000" />
+      <workItem from="1714051620908" duration="897000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

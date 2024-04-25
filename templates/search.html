@@ -1,0 +1,9 @@
+{% if results %}
+    <ul>
+        {% for room in results %}
+            <li>{{ room.name }} - {{ room.email }}</li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No results found for "{{ search_query }}"</p>
+{% endif %}
